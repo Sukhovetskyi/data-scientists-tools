@@ -1,0 +1,47 @@
+---
+title: "command-line-interface"
+author: "Sukhovetskyi"
+date: "August 1, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE, cache=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Command-Line-Interface (CLI Comands)
+
+- pwd - the parth to your working directory
+- ls[-a][-al] - lists files and folders in the current directory
+- cd [..] - change directory [..] - up to one level above
+- mkdir "NAME" - make new directory
+- cp "FILENAME" "outFOLDER" - copy to another directory
+- rm "FILENAME" - remove file
+- mv "FILENAME" "outFOLDER" - move file to another directory [rename file!!!]
+
+## GitHub
+
+- git init - Initialize a local Git repository
+- git remote add origin https://github.com/Sukhovetskyi/data-scientists-tools.git - combine local folder with GitHub repository
+- git clone https://github.com/Sukhovetskyi/another.git - clone GitHub repository to your computer
+
+### Before committing:
+- git add . -add all new files
+- git add -u -updates tracking for file that changed or weere deleted
+- git add -A - does both of the previos
+
+########Committing:
+- git commit -m "message" - for local repository
+
+########Pushing:
+- git push - update changes on the remote(GitHub) 
+
+
+
+
+
+
+
+
+
+
